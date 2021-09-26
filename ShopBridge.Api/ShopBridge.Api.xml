@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ShopBridge.Api</name>
+    </assembly>
+    <members>
+        <member name="T:ShopBridge.Api.Controllers.ProductController">
+            <summary>
+            The Product controller groups together all methods related to Product operations.
+            </summary>
+        </member>
+        <member name="M:ShopBridge.Api.Controllers.ProductController.#ctor(ShopBridge.Api.LoggerService.ILoggerManager,ShopBridge.Api.Application.Interfaces.IUnitOfWork)">
+            <summary>
+            The Product controller initilaization
+            </summary>
+        </member>
+        <member name="M:ShopBridge.Api.Controllers.ProductController.GetAll">
+            <summary>
+            Get all product details
+            </summary>
+        </member>
+        <member name="M:ShopBridge.Api.Controllers.ProductController.GetById(System.Int32)">
+            <summary>
+            Get product details By id 
+            </summary>
+        </member>
+        <member name="M:ShopBridge.Api.Controllers.ProductController.Add(ShopBridge.Api.Application.Entities.Products)">
+            <summary>
+            Add product details 
+            </summary>
+        </member>
+        <member name="M:ShopBridge.Api.Controllers.ProductController.Delete(System.Int32)">
+            <summary>
+            Delete product details 
+            </summary>
+        </member>
+        <member name="M:ShopBridge.Api.Controllers.ProductController.Update(ShopBridge.Api.Application.Entities.Products)">
+            <summary>
+            Update product details 
+            </summary>
+        </member>
+        <member name="M:ShopBridge.Api.Controllers.ProductController.GetProductsForPage(System.Int32,System.Int32)">
+            <summary>
+            Get product details as per pagination 
+            </summary>
+        </member>
+        <member name="M:ShopBridge.Api.Controllers.ProductController.GetProductByAsceOrder(System.String)">
+            <summary>
+            Get product details in ascending order for specified property 
+            </summary>
+        </member>
+        <member name="M:ShopBridge.Api.Controllers.ProductController.GetProductByDescOrder(System.String)">
+            <summary>
+            Get product details in descending order for specified property 
+            </summary>
+        </member>
+        <member name="T:ShopBridge.Api.Startup">
+            <summary>
+            Startup class
+            </summary>
+        </member>
+        <member name="M:ShopBridge.Api.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:ShopBridge.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+        </member>
+        <member name="M:ShopBridge.Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+        </member>
+    </members>
+</doc>
